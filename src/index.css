@@ -1,0 +1,114 @@
+@import 'tailwindcss';
+@plugin 'daisyui';
+
+
+
+/* 🌿 LIGHT THEME — “green-nest” */
+@plugin "daisyui/theme" {
+  name: "green-nest";
+  default: true;
+  prefersdark: false;
+  color-scheme: light;
+
+  /* Base background and text colors */
+  --color-base-100: #f0fff0; /* soft minty white */
+  --color-base-200: #e3efe7; /* light sage */
+  --color-base-300: #cde2d3; /* pale green-gray */
+  --color-base-content: #2e3b2e; /* deep leaf green for text */
+
+  /* Primary - main brand green */
+  --color-primary: #415a3d; /* rich forest green */
+  --color-primary-content: #ffffff; /* white text on green */
+
+  /* Secondary - accenting plants and highlights */
+  --color-secondary: #8cc084; /* fresh medium green */
+  --color-secondary-content: #1a2e1a; /* dark contrast text */
+
+  /* Accent - floral touch */
+  --color-accent: #e3b04b; /* golden sunlight tone */
+  --color-accent-content: #2e2e2e;
+
+  /* Neutral - supporting earth tones */
+  --color-neutral: #5b4636; /* soil brown */
+  --color-neutral-content: #f4f1ee;
+
+  /* Status colors */
+  --color-info: #81b29a; /* sage green info */
+  --color-success: #4caf50; /* standard success green */
+  --color-warning: #e1ad01; /* golden warning */
+  --color-error: #c44536; /* clay red for errors */
+
+  /* Border radius */
+  --radius-selector: 0.75rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+
+  /* Sizes */
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  /* Border and effect */
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
+
+/* 🌙 DARK THEME — “green-nest-dark” */
+@plugin "daisyui/theme" {
+  name: "green-nest-dark";
+  default: false;
+  prefersdark: true;
+  color-scheme: dark;
+
+  /* Base background and text colors */
+  --color-base-100: #0e1a13; /* deep forest green background */
+  --color-base-200: #15231a; /* card background */
+  --color-base-300: #203127; /* subtle surface hover */
+  --color-base-content: #e3f3e9; /* light greenish text */
+
+  /* Primary - leafy glow */
+  --color-primary: #4ade80; /* minty green highlight */
+  --color-primary-content: #071109;
+
+  /* Secondary - dew blue accent */
+  --color-secondary: #8cc084;
+  --color-secondary-content: #04151f;
+
+  /* Accent - warm sunlight yellow */
+  --color-accent: #facc15;
+  --color-accent-content: #1a1500;
+
+  /* Neutral - earthy dark tones */
+  --color-neutral: #1c1f1d;
+  --color-neutral-content: #d1d5db;
+
+  /* Status colors */
+  --color-info: #38bdf8;
+  --color-success: #22c55e;
+  --color-warning: #fbbf24;
+  --color-error: #f87171;
+  --color-info-content: #04121c;
+  --color-success-content: #0a160b;
+  --color-warning-content: #241a05;
+  --color-error-content: #190505;
+
+  /* Border radius */
+  --radius-selector: 0.75rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+
+  /* Sizes */
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  /* Border and effect */
+  --border: 1px;
+  --depth: 2;
+  --noise: 0;
+}
+
+/* 🌱 Active link styling */
+a.active {
+  text-decoration: underline 2px;
+  text-underline-offset: 5px;
+}

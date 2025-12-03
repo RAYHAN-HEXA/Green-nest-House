@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Amira Rahman",
+    "image": "https://i.pinimg.com/736x/05/6c/85/056c85d23f30445c4ad7889967e6d9a1.jpg",
+    "specialization": "Indoor Plant Care Specialist",
+    "bio": "Amira focuses on low-light houseplants and sustainable watering techniques for urban apartments."
+  },
+  {
+    "id": 2,
+    "name": "Takeshi Mori",
+    "image": "https://images.squarespace-cdn.com/content/v1/66a4f1fc404ca05cac7d8ec8/e6780c44-6fc4-4127-a0ed-9f8dd071ddea/Branding+Headshot+Female",
+    "specialization": "Bonsai and Pruning Expert",
+    "bio": "With over 15 years of experience in bonsai cultivation, Takeshi blends Japanese tradition with modern aesthetics."
+  },
+  {
+    "id": 3,
+    "name": "Farid Ahmed",
+    "image": "https://i.ibb.co.com/1JXV2VSq/farid.webp",
+    "specialization": "Outdoor Garden Designer",
+    "bio": "Farid designs lush, low-maintenance gardens and focuses on soil health and companion planting."
+  }
+]

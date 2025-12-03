@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "tipCategory": "Watering",
+    "tip": "Water only when soil is dry to the touch."
+  },
+  {
+    "id": "2",
+    "tipCategory": "Sunlight",
+    "tip": "Keep in bright, indirect sunlight."
+  },
+  {
+    "id": "3",
+    "tipCategory": "Fertilizing",
+    "tip": "Feed occasionally in growing season."
+  }
+]
