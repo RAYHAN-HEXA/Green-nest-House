@@ -1,5 +1,5 @@
 # GreenNest – Indoor Plant Care & Store
-Live Link : https://green-nest-indoor-plant-store.netlify.app/
+Live Link :green-nest-house.netlify.app
 
 Simple React + Vite single-page app for indoor plant browsing, booking consultations, and basic Firebase authentication.
 
