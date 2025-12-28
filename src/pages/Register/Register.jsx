@@ -143,7 +143,7 @@ const Register = () => {
             onClick={handleGoogleSignIn}
             className="btn btn-outline btn-primary"
           >
-            <FaGoogle /> <p>Sign Up with Google</p>{' '}
+            <FaGoogle /> <p>Sign Up with GOOGLE</p>{' '}
           </button>{' '}
         </fieldset>
       </form>{' '}
