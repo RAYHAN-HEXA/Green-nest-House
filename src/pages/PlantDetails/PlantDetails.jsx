@@ -42,9 +42,9 @@ const PlantDetails = () => {
   if (!plant) {
     return (
       <SectionBody>
-        <h1 className="text-3xl font-bold text-error">Plant Not Found</h1>
+        <h1 className="text-3xl font-bold text-error">Plant Not Founded</h1>
         <p className="text-gray-500">
-          The plant you’re looking for doesn’t exist or may have been removed.
+          The plant you’re looking for doesn’t exist or may have been removed and saved .
         </p>
         <Link to="/plants" className="btn btn-primary mt-3">
           Back to All Plants
