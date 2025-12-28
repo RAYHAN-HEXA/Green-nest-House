@@ -135,7 +135,7 @@ const Register = () => {
             className="btn btn-primary mt-4"
             disabled={sixChar && upper && lower ? false : true}
           >
-            Register
+          REGISTEER
           </button>
           <div className="divider my-1"></div>
           <button
