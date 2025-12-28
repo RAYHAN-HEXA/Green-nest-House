@@ -123,7 +123,7 @@ const Register = () => {
                 <FaArrowRight /> 6 character long
               </li>
               <li className={`${upper ? 'text-primary' : 'text-red-500'} flex items-center `}>
-                <FaArrowRight /> At least one Upper Case
+                <FaArrowRight /> At least one UPPER Case
               </li>
               <li className={`${lower ? 'text-primary' : 'text-red-500'} flex items-center `}>
                 <FaArrowRight /> At least one Lower Case
